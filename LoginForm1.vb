@@ -40,7 +40,7 @@ Public Class LoginForm1
             Me.Hide()
             Form1.Show()
         Else
-            MessageBox.Show("Invalid")
+            MessageBox.Show("Invalid username or password")
         End If
         Disconnect_to_DB()
 
@@ -51,6 +51,10 @@ Public Class LoginForm1
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub LoginForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
