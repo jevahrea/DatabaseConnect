@@ -40,7 +40,7 @@ Public Class LoginForm1
             Me.Hide()
             Form1.Show()
         Else
-            MessageBox.Show("Invalid kekekekekekeke")
+            MessageBox.Show("Invalid Username or Password")
         End If
         Disconnect_to_DB()
 
